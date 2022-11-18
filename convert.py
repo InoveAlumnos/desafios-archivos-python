@@ -7,9 +7,9 @@ import json
 filename = input("Enter the name of the file: ")
 
 # open file
-file = open(filename)
+file = open("csv/" + filename)
 data = list(csv.DictReader(file))
 
 # write csv in a json file
-with open(filename.replace(".csv", ".json"), "w") as file:
+with open("json/" + filename.replace(".csv", ".json"), "w") as file:
     json.dump(data[:10], file, indent = 4)

@@ -1,0 +1,32 @@
+[
+    {
+        "tornillos": "100",
+        "tuercas": "150",
+        "arandelas": "300"
+    },
+    {
+        "tornillos": "120",
+        "tuercas": "120",
+        "arandelas": "250"
+    },
+    {
+        "tornillos": "80",
+        "tuercas": "90",
+        "arandelas": "180"
+    },
+    {
+        "tornillos": "70",
+        "tuercas": "60",
+        "arandelas": "150"
+    },
+    {
+        "tornillos": "50",
+        "tuercas": "50",
+        "arandelas": "100"
+    },
+    {
+        "tornillos": "25",
+        "tuercas": "30",
+        "arandelas": "50"
+    }
+]

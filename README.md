@@ -10,3 +10,14 @@ El archivo `convert.py` puede utilzarse para convertir de `csv` a `json`
 python convert.py
 Enter the name of the file: <filename> # Nombre del archivo (con la extensión)
 ```
+
+# Cómo solicitar el contenido de los archivos (desde python)
+
+```python
+data = requests.get(f"https://raw.githubusercontent.com/InoveAlumnos/desafios-archivos-python/main/json/{filename}", stream = True)
+data = data.json()
+```
+Donde `filename` puede variar entre:
+- propiedades.json
+- ironman.json
+- stock.json

@@ -23,7 +23,7 @@
         "precio": "4000.0",
         "moneda": "USD",
         "m2": "192",
-        "ambientes": "4"
+        "ambientes": "2"
     },
     {
         "": "2",
@@ -62,7 +62,7 @@
         "precio": "34000.0",
         "moneda": "ARS",
         "m2": "90",
-        "ambientes": "4"
+        "ambientes": "2"
     },
     {
         "": "5",
@@ -101,7 +101,7 @@
         "precio": "1150.0",
         "moneda": "ARS",
         "m2": "25",
-        "ambientes": "1"
+        "ambientes": ""
     },
     {
         "": "8",
